@@ -80,7 +80,7 @@ the code come from terzakig/SelfDrivingCar3-Integration. It has four main functi
 
 2) vehicle control for stable running
 
-3）light detection which this use position and closed light color to classify with opencv function.
+3) light detection which this use position and closed light color to classify with opencv function.
 
 4) list method to update waypoint for slowing down vehicle , accelarating and stoping
 
