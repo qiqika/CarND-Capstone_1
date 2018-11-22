@@ -74,14 +74,24 @@ roslaunch launch/site.launch
 5. Confirm that traffic light detection works on real life images
 
 ### note
-the code come from terzakig/SelfDrivingCar3-Integration. It has four main function parts:
-
-1) KDTree for finding closed points
-
-2) vehicle control for stable running
-
-3) light detection which this use position and closed light color to classify with opencv function.
-
-4) list method to update waypoint for slowing down vehicle , accelarating and stoping
+the code come from terzakig/SelfDrivingCar3-Integration. The topics and msg flow:
 
 ![alt_tag](./data_flow.png)
+
+#### preception
+
+1.obstacle detection
+
+
+2.traffic light detection
+
+
+#### planning
+
+1.waypoint loader
+
+2.waypoint updater
+
+##### future
+
+
