@@ -82,15 +82,18 @@ the code come from terzakig/SelfDrivingCar3-Integration. The topics and msg flow
 
 1.obstacle detection
 
+this code dont have obstacle part. in the future, we can use laser(like :3D-deepBox) or image object detection(like: yolo, fast rcnn, ssd etc.) to get obstacle position .  
 
 2.traffic light detection
+
+this code use base_waypoints to get accurate 3D map and light location. for more information and good results, code utilizes 
+
 
 
 #### planning
 
-1.waypoint loader
+waypoint updater
 
-2.waypoint updater
 
 ##### future
 
