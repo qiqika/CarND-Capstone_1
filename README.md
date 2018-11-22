@@ -82,19 +82,23 @@ the code come from terzakig/SelfDrivingCar3-Integration. The topics and msg flow
 
 1.obstacle detection
 
-this code dont have obstacle part. in the future, we can use laser(like :3D-deepBox) or image object detection(like: yolo, fast rcnn, ssd etc.) to get obstacle position .  
+This code have not the obstacle part. In the future, we can use laser data methhod(like :3D-deepBox methhod) or image object detection data methhod(like: yolo, fast rcnn, ssd etc.) to get obstacle position .  
 
 2.traffic light detection
 
-this code use base_waypoints to get accurate 3D map and light location. for more information and good results, code utilizes 
-
-
+This code use base_waypoints to get accurate 3D map and light location. For better planning car, code utilizes
+RGB color space to identify red , yellow and green color. In the future, We can use the deep net(like cnn) to identify light color and shape  in real complicated scenes.
 
 #### planning
 
-waypoint updater
+1.waypoint updater
 
+Use KDTree to find the closed distance for track list that is about when car to stop and when to ignore the light detection reaction. 
 
 ##### future
+
+1.for real scene, we need consider more about how to fuse the different sensor data for good planning and routing(like:lattice method). 
+
+2.need think about balance between different models running time and car high speed.  
 
 
