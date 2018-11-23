@@ -82,7 +82,7 @@ the code come from terzakig/SelfDrivingCar3-Integration. The topics and msg flow
 
 1.obstacle detection
 
-This code have not the obstacle part. In the future, we can use laser data methhod(like :3D-deepBox methhod) or image object detection data methhod(like: yolo, fast rcnn, ssd etc.) to get obstacle position .  
+This code have not the obstacle part. In the future, we can use lidar data methhod(like :3D-deepBox methhod) or image object detection data methhod(like: yolo, fast rcnn, ssd etc.) to get obstacle position .  
 
 2.traffic light detection
 
